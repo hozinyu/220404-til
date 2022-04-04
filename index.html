@@ -1,0 +1,32 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>갑자기 자.스 입문해보려고 컴 켰음</title>
+  </head>
+  <style>
+    #h-one {
+      color: tomato;
+      text-decoration: black wavy underline;
+    }
+  </style>
+  <body>
+    <h2 id="hello">안녕하세요</h2>
+    <h2 id="love">이병 이창윤</h2>
+    <p id="mk">아 ~ 민균아!</p>
+    <span id="h-one"> 채형원한테 최형원이라 하지마샘 </span>
+    <script>
+      document.getElementById("hello").innerHTML = "hello";
+      // 웹문서 의 id가 hello 인 요소를 가져와라 . html문서 안에 있는걸 hello로 대입/바꿔라 -->
+      document.getElementById("love").innerHTML = "당장 제대해";
+      alert("무사와요");
+      // 얘는 걍 해봄 알림창 해보고 싶어성 ㅎㅎㅎ
+      document.getElementById("mk").style.fontSize = "100px";
+      // 웹문서의 id가 민균인 요소를 가져와서 스타일을 바꿀건데 어떤 스타일이냐 폰트사이즈를 100으로 바까라 큼큼
+      document.getElementById("h-one").style.textDecorationColor = "skyblue";
+      // 웹문서의 id가 h-one인 요소를 가져와서 스타일을 바꿀건데 어떤 스타일이냐면은 텍스트데코컬러를 하늘색으로 바까라
+    </script>
+  </body>
+</html>
